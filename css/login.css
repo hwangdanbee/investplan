@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+#login{height: 100vh; text-align: center;}
+#login article{height: 100%; background-image: url(../img/loginPart.jpg); background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; /* filter: blur(2px); */
+}
+#login article .dark{height: 100%; background-color: rgba(21, 39, 53, 0.65); position: relative;}
+
+
+.cloud{width: 100%; height: 100%; background-image: url(../img/cloud.png); background-repeat: no-repeat; background-size: auto 400px; animation:moveCloud 120s infinite; opacity: 0.5;}
+
+@keyframes moveCloud{
+    0%{background-position: 0 100%;}
+    50%{background-position: 100% 100%;}
+    100%{background-position: 0 100%;}
+}
+
+
+#login article .dark .wrap{width: 800px; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); filter: none;}
+
+#login article .dark .wrap h2{color: #fff; font-size: 50px; text-transform: uppercase; padding: 40px 0 80px; /* border-top: 1px solid #fff; */}
+
+#login article .dark .wrap .login_cont{}
+#login article .dark .wrap .login_cont .user > div{width: 400px; height: 50px; border-radius: 25px; border: none; background-color: rgba(225,225,225,0.5); margin: 0 auto 15px; padding-left: 20px; text-align: left; text-transform: uppercase;}
+#login article .dark .wrap .login_cont .user > div:last-child{background-color: rgba(94, 136, 158, 0.8);
+}
+
+#login article .dark .wrap .login_cont .user > div > input{border: none; background: transparent; color: #fff; text-transform: uppercase; font-size: 14px; line-height: 1; padding: 18px 0; outline: none;}
+#login article .dark .wrap .login_cont .user > div > i{color: #fff; padding-right: 20px;}
+#login article .dark .wrap .login_cont .user > div > a{display: block; line-height: 1; padding: 18px 0; color: #fff; text-align: center;}
+
+#login article .dark .wrap .login_cont .cont{width: 800px; padding: 20px 200px;}
+#login article .dark .wrap .login_cont .cont > ul{}
+#login article .dark .wrap .login_cont .cont > ul:after{content: ""; display: block; clear: both;}
+#login article .dark .wrap .login_cont .cont > ul > li{display: inline-block; font-size: 15px; color: #fff;}
+#login article .dark .wrap .login_cont .cont > ul > li:first-child{float: left;}
+#login article .dark .wrap .login_cont .cont > ul > li:last-child{float: right; font-style: italic;}
+#login article .dark .wrap .login_cont .cont > ul > li > input{outline: none;}
+
+#login article .dark .wrap .login_cont .cont > ul > li > a{color: #fff;}
+
+#login article .dark .wrap .login_cont .sns{width: 400px; padding: 20px; margin: 0 auto; border-top: 1px solid rgba(225,225,225,0.5);    }
+#login article .dark .wrap .login_cont .sns > ul{font-size: 0;}
+#login article .dark .wrap .login_cont .sns > ul > li{display: inline-block; padding: 0 10px;}
+#login article .dark .wrap .login_cont .sns > ul > li > a{display: block; width: 20px; height: 20px; background-position: 50% 50%; background-size: cotain; background-repeat: no-repeat;}
+
+#login article .dark .wrap .login_cont .sns > ul > li:nth-child(1) > a{background-image: url(../img/sns/sns-face.svg);}
+#login article .dark .wrap .login_cont .sns > ul > li:nth-child(2) > a{background-image: url(../img/sns/sns-google.svg);}
+#login article .dark .wrap .login_cont .sns > ul > li:nth-child(3) > a{ background-image: url(../img/sns/sns-kakao.svg);}
+

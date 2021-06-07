@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#faq_cont{color: #5c5c5c;}
+#faq_cont h2{font-size: 24px; text-align: center; text-transform: uppercase; font-weight: normal;}
+#faq_cont h2 span{font-weight: bold;}
+
+#faq_cont .wrap{width: 1200px; padding: 40px 110px 80px; margin: 0 auto;}
+
+#faq_cont .wrap .cont{padding: 20px; margin-bottom: 40px; border: 1px solid #7398ab; border-radius: 4px;}
+#faq_cont .wrap .cont:last-child{margin-bottom: 0;}
+
+#faq_cont .wrap .cont h3{font-size: 18px; color: #7398ab; padding-bottom: 20px;}
+#faq_cont .wrap .cont p{font-size: 14px;}
